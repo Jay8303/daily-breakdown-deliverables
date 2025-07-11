@@ -1,4 +1,3 @@
-
 import HeroSection from '../components/Herosection';
 import FeatureCard from '../components/Featurecard';
 import Counter from '../components/counter';
@@ -8,6 +7,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
+      <Counter /> {/* 👈 Add this if you want to show the counter */}
       <Container sx={{ mt: 6 }}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={4}>
